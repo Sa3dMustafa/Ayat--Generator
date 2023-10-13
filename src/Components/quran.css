@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.random-quran {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 14px 13px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 30px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.container {
+    box-shadow: inset 0px 0px 15px #969696;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Ayah {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Ayah-name {
+    font-size: 19px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.place {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.Ayah-number {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2671a1;
+}
+
+audio {
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 400px) {
+    .random-quran {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+    .title {
+        font-size: 24px; /* Decrease font size for smaller screens */
+    }
+    .button {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+    audio{
+        width: 172px !important;
+        height: 40px !important;
+    }
+}
